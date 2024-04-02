@@ -1,10 +1,7 @@
 package test;
 
 import org.kohsuke.randname.RandomNameGenerator;
-import test.data.Category;
-import test.data.Pet;
-import test.data.Status;
-import test.data.Tag;
+import test.data.*;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -35,6 +32,14 @@ public class TestUtils {
                 .name(TestUtils.getRandomWord())
                 .build();
     }
+    public static User generateSimpleTemplateUser(){
+        return User.builder()
+                .id(Integer.toString(TestUtils.getRandomNumber()))
+                .username(TestUtils.getRandomWord())
+                .firstName(TestUtils.getRandomWord())
+                .lastName(TestUtils.getRandomWord())
+                .build();
+    }
 
     public static Pet generateFullTemplate() {
         return Pet.builder()
@@ -46,6 +51,17 @@ public class TestUtils {
                 .status(Status.available)
                 .build();
     }
+//    public static User generateFullTemplateUser() {
+//        return User.builder()
+//                .id(Integer.toString(TestUtils.getRandomNumber()))
+//                .username(TestUtils.getRandomWord())
+//                .firstName(TestUtils.getRandomWord())
+//                .lastName(TestUtils.getRandomWord())
+//                //.category(Category.builder().id(Integer.toString(TestUtils.getRandomNumber())).name(TestUtils.getRandomWord()).build())
+//                //.tags(Collections.singletonList(Tag.builder().id(Integer.toString(TestUtils.getRandomNumber())).name(TestUtils.getRandomWord()).build()))
+//                .status(Status.available)
+//                .build();
+//    }
 
     public static Pet generatePetWithSetFields(Integer petId, String name, List<String> urls, Category category, List<Tag> tags, Status status) {
         return Pet.builder()

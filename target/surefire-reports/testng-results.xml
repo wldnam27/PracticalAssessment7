@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-21T10:51:29Z" name="Surefire suite" finished-at="2024-03-21T10:51:38Z" duration-ms="9158">
+    <groups>
+    </groups>
+    <test started-at="2024-03-21T10:51:29Z" name="Surefire test" finished-at="2024-03-21T10:51:38Z" duration-ms="9158">
+      <class name="AddNewPetTest">
+        <test-method is-config="true" signature="SetUpSuite()[pri:0, instance:AddNewPetTest@1649b0e6]" started-at="2024-03-21T17:51:28Z" name="SetUpSuite" description="Configure URI and create default Pet object" finished-at="2024-03-21T17:51:29Z" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpSuite -->
+        <test-method signature="checkPositiveFullPet()[pri:0, instance:AddNewPetTest@1649b0e6]" started-at="2024-03-21T17:51:29Z" name="checkPositiveFullPet" description="Validation adding pet with all field" finished-at="2024-03-21T17:51:32Z" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPositiveFullPet -->
+        <test-method signature="checkPositivePostSimpleTest()[pri:0, instance:AddNewPetTest@1649b0e6]" started-at="2024-03-21T17:51:32Z" name="checkPositivePostSimpleTest" description="Validation adding default pet to store" finished-at="2024-03-21T17:51:34Z" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPositivePostSimpleTest -->
+        <test-method is-config="true" signature="TearDownSuite()[pri:0, instance:AddNewPetTest@1649b0e6]" started-at="2024-03-21T17:51:38Z" name="TearDownSuite" finished-at="2024-03-21T17:51:38Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownSuite -->
+      </class> <!-- AddNewPetTest -->
+      <class name="CheckExistingPetTest">
+        <test-method signature="checkExistingSimpleTest()[pri:0, instance:CheckExistingPetTest@865dd6]" started-at="2024-03-21T17:51:34Z" name="checkExistingSimpleTest" description="Chek all field for existing simple default" finished-at="2024-03-21T17:51:38Z" duration-ms="3945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExistingSimpleTest -->
+      </class> <!-- CheckExistingPetTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

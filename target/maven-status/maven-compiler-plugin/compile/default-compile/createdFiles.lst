@@ -1,0 +1,13 @@
+test\apiPetClient\ServicesPetSteps.class
+test\Configuration.class
+test\data\Pet.class
+test\data\Category.class
+test\data\Pet$PetBuilder.class
+test\apiPetClient\PetBaseApiClient.class
+test\TestUtils.class
+test\ApplicationConfig.class
+test\data\Tag$TagBuilder.class
+test\apiPetClient\AbstractRequest.class
+test\data\Category$CategoryBuilder.class
+test\data\Status.class
+test\data\Tag.class
