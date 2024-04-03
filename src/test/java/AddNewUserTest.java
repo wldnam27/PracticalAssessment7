@@ -13,4 +13,6 @@ public class AddNewUserTest extends BaseTest2{
     @Severity(SeverityLevel.CRITICAL)
     public void checkPositivePostSimpleTest(){apiClient.createUserSuccessfully(user);
     }
+
+
 }
